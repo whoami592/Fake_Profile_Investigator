@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Profile comparison report</title><style>body{font:16px system-ui;max-width:950px;margin:40px auto;padding:20px;color:#172432}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#eef3f5;padding:18px}h1{color:#126449}</style><h1>Fake Profile Investigator</h1><p>Coded by Cyber Security Engineer Mr Sabaz Ali Khan</p><h2>Fictional demonstration: community library</h2><p>Similarity is a review clue, not proof of impersonation or identity. Shared logos, templates and authorized accounts can look alike. Low similarity does not establish authenticity. Photo comparison is not face recognition.</p><p>Observed at (user supplied): Demo only</p><h2>Reference profile</h2><pre>{
+  &quot;username&quot;: &quot;community_library&quot;,
+  &quot;display_name&quot;: &quot;Community Library&quot;,
+  &quot;bio&quot;: &quot;Books, learning and community events.&quot;,
+  &quot;url&quot;: &quot;https://example.com/reference&quot;,
+  &quot;photo&quot;: &quot;&quot;
+}</pre><h2>Candidate profile</h2><pre>{
+  &quot;username&quot;: &quot;community_library_help&quot;,
+  &quot;display_name&quot;: &quot;Community Library&quot;,
+  &quot;bio&quot;: &quot;Books, learning and community events. Contact our help desk.&quot;,
+  &quot;url&quot;: &quot;https://example.com/candidate&quot;,
+  &quot;photo&quot;: &quot;&quot;
+}</pre><h2>Comparison</h2><pre>{
+  &quot;generated_at&quot;: &quot;2026-09-25T05:19:23.703846+00:00&quot;,
+  &quot;text_similarity_percent&quot;: {
+    &quot;username&quot;: 87.2,
+    &quot;display_name&quot;: 100.0,
+    &quot;bio&quot;: 76.3
+  },
+  &quot;photos&quot;: {
+    &quot;status&quot;: &quot;Not compared: select a local photo for both profiles.&quot;
+  },
+  &quot;clues&quot;: [
+    &quot;Username: substantial text overlap (87.2%).&quot;,
+    &quot;Display Name: substantial text overlap (100.0%).&quot;
+  ],
+  &quot;notice&quot;: &quot;Similarity is a review clue, not proof of impersonation or identity. Shared logos, templates and authorized accounts can look alike. Low similarity does not establish authenticity. Photo comparison is not face recognition.&quot;,
+  &quot;method&quot;: &quot;NFKC/casefold text + SequenceMatcher; SHA-256 and 64-bit grayscale difference hash. No calibrated probability or fake-account verdict.&quot;
+}</pre><h2>Investigator notes</h2><pre>Both accounts are fictional. Overlap alone does not establish impersonation.</pre><p>Preserve original screenshots and source URLs. Confirm account ownership through a separately trusted channel before taking action. Generated timestamps are local observations, not platform-certified evidence.</p></html>

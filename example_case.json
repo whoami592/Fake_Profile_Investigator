@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "title": "Fictional demonstration: community library",
+  "observed_at": "Demo only",
+  "notes": "Both accounts are fictional. Overlap alone does not establish impersonation.",
+  "reference": {
+    "username": "community_library",
+    "display_name": "Community Library",
+    "bio": "Books, learning and community events.",
+    "url": "https://example.com/reference",
+    "photo": ""
+  },
+  "candidate": {
+    "username": "community_library_help",
+    "display_name": "Community Library",
+    "bio": "Books, learning and community events. Contact our help desk.",
+    "url": "https://example.com/candidate",
+    "photo": ""
+  }
+}
